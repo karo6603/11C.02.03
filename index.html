@@ -5,9 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Hogwarts students 1991</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="studentlist.css" />
   </head>
   <body>
+    <header><h1>Hogwarts students 1991</h1></header>
+
+    <div class="housefilter">
+      <button class="housebtn">
+        FILTER BY HOUSE<i class="fa fa-angle-down"></i>
+      </button>
+      <div class="housedropdown">
+        <button class="filter">All</button>
+        <button class="filter">Gryffindor</button>
+        <button class="filter">Slytherin</button>
+        <button class="filter">Ravenclaw</button>
+        <button class="filter">Hufflepuff</button>
+      </div>
+    </div>
+
+    <div id="list"></div>
+
     <script src="studentlist.js"></script>
   </body>
 </html>

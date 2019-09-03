@@ -1,0 +1,57 @@
+html {
+  background-color: rgb(128, 128, 128);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+#list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 5vw;
+}
+
+.student {
+  border: 2px solid black;
+  margin: 4px;
+  padding: 10px;
+  background-color: ghostwhite;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 500;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  border: none;
+  background-color: inherit;
+  color: #41555b;
+}
+
+.housedropdown {
+  display: none;
+  flex-direction: column;
+}
+
+.show {
+  display: flex;
+}

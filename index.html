@@ -12,18 +12,36 @@
     <link rel="stylesheet" href="studentlist.css" />
   </head>
   <body>
+    <div id="popup">
+      <div id="luk"><button>x</button></div>
+      <div id="indhold"></div>
+    </div>
+
     <header><h1>Hogwarts students 1991</h1></header>
 
-    <div class="housefilter">
-      <button class="housebtn">
-        FILTER BY HOUSE<i class="fa fa-angle-down"></i>
-      </button>
-      <div class="housedropdown">
-        <button class="filter">All</button>
-        <button class="filter">Gryffindor</button>
-        <button class="filter">Slytherin</button>
-        <button class="filter">Ravenclaw</button>
-        <button class="filter">Hufflepuff</button>
+    <div class="options">
+      <div class="housefilter">
+        <button class="housebtn">
+          FILTER BY HOUSE<i class="fa fa-angle-down"></i>
+        </button>
+        <div class="housedropdown">
+          <button class="filter">All</button>
+          <button class="filter">Gryffindor</button>
+          <button class="filter">Slytherin</button>
+          <button class="filter">Ravenclaw</button>
+          <button class="filter">Hufflepuff</button>
+        </div>
+      </div>
+
+      <div class="sortdrop">
+        <button class="sortbtn">
+          SORT BY <i class="fa fa-angle-down"></i>
+        </button>
+        <div class="sortdropdown">
+          <button class="firstname">First name</button>
+          <button class="lastname">Last name</button>
+          <button class="house">House</button>
+        </div>
       </div>
     </div>
 
